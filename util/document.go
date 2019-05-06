@@ -1,58 +1,7 @@
-package main
+// Package util is a set of utilitary things.
+package util
 
-import (
-	"encoding/xml"
-	"fmt"
-	"io/ioutil"
-	"os"
-	"strings"
-)
-
-func main() {
-	var variables = []string{"${fechaCorte}"}
-	fmt.Println("hola")
-	xmlFile := getData()
-	defer xmlFile.Close()
-	byteValue, _ := ioutil.ReadAll(xmlFile)
-	var document Document
-	xml.Unmarshal(byteValue, &document)
-	for index := 0; index < len(document.Body.P); index++ {
-		for _, cadena := range variables {
-			fmt.Printf("%s,%s \n", cadena, document.Body.P[index].R.T)
-
-			if strings.Contains(document.Body.P[index].R.T, cadena) {
-
-				document.Body.P[index].R.T = strings.Replace(document.Body.P[index].R.T, cadena, "se cambio la vaina", -1)
-
-			}
-		}
-	}
-
-	fmt.Println("9999999999999999999999999999999999999999999999")
-	for _, item := range document.Body.P {
-		fmt.Println(item.R.T)
-	}
-	fmt.Println("****************************************")
-	for _, item := range document.Body.P {
-		fmt.Printf("%s \n", item.R.T)
-	}
-	resultado, err := xml.Marshal(&document)
-	if err != nil {
-		panic(err)
-	}
-
-	ioutil.WriteFile("salida.xml", resultado, os.ModePerm)
-
-}
-
-func getData() *os.File {
-	xmlFile, err := os.Open("document.xml")
-
-	if err != nil {
-		panic(err)
-	}
-	return xmlFile
-}
+import "encoding/xml"
 
 // Document documento
 type Document struct {
@@ -72,7 +21,7 @@ type Document struct {
 	Ignorable string   `xml:"Ignorable,attr"`
 	Body      struct {
 		Text string `xml:",chardata"`
-		P    []struct {
+		P    *[]struct {
 			Text string `xml:",chardata"`
 			PPr  struct {
 				Text   string `xml:",chardata"`
@@ -93,7 +42,7 @@ type Document struct {
 					} `xml:"lang"`
 				} `xml:"rPr"`
 			} `xml:"pPr"`
-			R struct {
+			R *struct {
 				Text string `xml:",chardata"`
 				RPr  struct {
 					Text string `xml:",chardata"`
@@ -102,7 +51,7 @@ type Document struct {
 						Val  string `xml:"val,attr"`
 					} `xml:"lang"`
 				} `xml:"rPr"`
-				T string `xml:"t"`
+				T *string `xml:"t"`
 			} `xml:"r"`
 		} `xml:"p"`
 		Tbl struct {

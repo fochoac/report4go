@@ -1,0 +1,497 @@
+d<document o="urn:schemas-microsoft-com:office:office" r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" v="urn:schemas-microsoft-com:vml" w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" w10="urn:schemas-microsoft-com:office:word" wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" mc="http://schemas.openxmlformats.org/markup-compatibility/2006" wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" w14="http://schemas.microsoft.com/office/word/2010/wordml" Ignorable="w14 wp14">
+d<body>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Plantilla de empleado</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Fecha de Corte: se cambio la vaina</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Datos Personales:</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Nombre:${nombre}</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Email:${mail}</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Fecha Nacimiento:${fechaNacimiento}</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Berschrift"></pStyle>
+d<spacing before="240" after="120"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d<t>Salario: ${salario}</t>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Cuerpodetexto"></pStyle>
+d<spacing before="" after=""></spacing>
+d<rPr>
+d<lang val="de-DE"></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val="de-DE"></lang>
+d</rPr>
+d</r>
+d</p>
+d<p>
+d<pPr>
+d<pStyle val="Cuerpodetexto"></pStyle>
+d<spacing before="0" after="140"></spacing>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<lang val=""></lang>
+d</rPr>
+d</r>
+d</p>
+d<tbl>
+d<tblPr>
+d<tblW w="9638" type="dxa"></tblW>
+d<jc val="left"></jc>
+d<tblInd w="0" type="dxa"></tblInd>
+d<tblBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d</tblBorders>
+d<tblCellMar>
+d<top w="55" type="dxa"></top>
+d<left w="51" type="dxa"></left>
+d<bottom w="55" type="dxa"></bottom>
+d<right w="55" type="dxa"></right>
+d</tblCellMar>
+d</tblPr>
+d<tblGrid>
+d<gridCol w="2409"></gridCol>
+d<gridCol w="2410"></gridCol>
+d<gridCol w="2411"></gridCol>
+d<gridCol w="2407"></gridCol>
+d</tblGrid>
+d<tr>
+d<trPr></trPr>
+d<tc>
+d<tcPr>
+d<tcW w="2409" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val="center"></jc>
+d<rPr>
+d<b></b>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d<rFonts ascii="" hAnsi=""></rFonts>
+d</rPr>
+d<t>Nombre</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2410" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val="center"></jc>
+d<rPr>
+d<b></b>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d<rFonts ascii="" hAnsi=""></rFonts>
+d</rPr>
+d<t>Email</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2411" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val="center"></jc>
+d<rPr>
+d<b></b>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d<rFonts ascii="" hAnsi=""></rFonts>
+d</rPr>
+d<t>Fecha Nacimiento</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2407" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="single" sz="2" space="0" color="000000"></right>
+d<insideV val="single" sz="2" space="0" color="000000"></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val="center"></jc>
+d<rPr>
+d<b></b>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="32"></sz>
+d<szCs val="32"></szCs>
+d<color val=""></color>
+d<rFonts ascii="" hAnsi=""></rFonts>
+d</rPr>
+d<t>salario</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d</tr>
+d<tr>
+d<trPr></trPr>
+d<tc>
+d<tcPr>
+d<tcW w="2409" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val=""></jc>
+d<rPr>
+d<bCs></bCs>
+d<sz val=""></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val=""></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d<rFonts ascii="" hAnsi=""></rFonts>
+d</rPr>
+d<t>name</t>
+d</r>
+d<bookmarkStart id="0" name="__DdeLink__861_3893329991"></bookmarkStart>
+d<bookmarkEnd id="0"></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2410" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val=""></jc>
+d<rPr>
+d<bCs></bCs>
+d<sz val=""></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="20"></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d<rFonts ascii="Monospace" hAnsi="Monospace"></rFonts>
+d</rPr>
+d<t>email</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2411" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="" sz="" space="" color=""></right>
+d<insideV val="" sz="" space="" color=""></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val=""></jc>
+d<rPr>
+d<bCs></bCs>
+d<sz val=""></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="20"></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d<rFonts ascii="Monospace" hAnsi="Monospace"></rFonts>
+d</rPr>
+d<t>dateOfBirth</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d<tc>
+d<tcPr>
+d<tcW w="2407" type="dxa"></tcW>
+d<tcBorders>
+d<top val="single" sz="2" space="0" color="000000"></top>
+d<left val="single" sz="2" space="0" color="000000"></left>
+d<bottom val="single" sz="2" space="0" color="000000"></bottom>
+d<insideH val="single" sz="2" space="0" color="000000"></insideH>
+d<right val="single" sz="2" space="0" color="000000"></right>
+d<insideV val="single" sz="2" space="0" color="000000"></insideV>
+d</tcBorders>
+d<shd fill="auto" val="clear"></shd>
+d</tcPr>
+d<p>
+d<pPr>
+d<pStyle val="Contenidodelatabla"></pStyle>
+d<jc val=""></jc>
+d<rPr>
+d<bCs></bCs>
+d<sz val=""></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d</rPr>
+d</pPr>
+d<r>
+d<rPr>
+d<b></b>
+d<bCs></bCs>
+d<sz val="20"></sz>
+d<szCs val=""></szCs>
+d<color val="auto"></color>
+d<rFonts ascii="Monospace" hAnsi="Monospace"></rFonts>
+d</rPr>
+d<t>salary</t>
+d</r>
+d<bookmarkStart id="" name=""></bookmarkStart>
+d<bookmarkEnd id=""></bookmarkEnd>
+d</p>
+d</tc>
+d</tr>
+d</tbl>
+d<sectPr>
+d<type val="nextPage"></type>
+d<pgSz w="11906" h="16838"></pgSz>
+d<pgMar left="1134" right="1134" header="0" top="1134" footer="0" bottom="1134" gutter="0"></pgMar>
+d<pgNumType fmt="decimal"></pgNumType>
+d<formProt val="false"></formProt>
+d<textDirection val="lrTb"></textDirection>
+d<docGrid type="default" linePitch="240" charSpace="0"></docGrid>
+d</sectPr>
+d</body>
+d</document>
